@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(download.jfif) center center/cover no-repeat fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parent {
+    background-color: rgb(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(3px);
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.head{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    color: rgb(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(3px);
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 350px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(3px);
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 15px;
+    color: black;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(3px);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+
+form a {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+.fg:hover {
+    color: red;
+    transition: all 0.5s ease-out;
+}
